@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="pasta">
+    <meta name="description" content="Welcome to the Little Pasta Shop">
+    <title>The Little Pasta Shop</title>
+    <link rel="icon" href="pi.jpg" type="image/x-icon">
+    <style>
+        html{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+            font-weight: 200;
+        }
+        img{
+            height: 300px;
+            width: 400px;
+            border-radius: 30px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        body{
+            background-color: bisque;
+            background-repeat:repeat;
+            background-attachment: fixed;
+            background-position: top center;
+            backdrop-filter: blur(2px);
+            background-size:auto;
+            background-image:url("wall.jpg")
+        }
+        table {
+            font-style: oblique;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border-collapse:collapse;
+        }
+        td,th{
+            border :1 px solid rgb(248, 248, 5);
+            border-style:ridge;
+            padding-left: 4px;
+            padding-top: 4px;
+            padding-right: 4px;
+            padding-bottom: 4px;
+        }
+        tr:nth-child(odd){background-color:rgb(63, 103, 4) ;}
+        tr:hover {background-color: rgb(106, 144, 17);}
+        th{
+            padding-top: 4px;
+            text-align: left;
+            background-color: #07432d;
+            color: rgb(255, 251, 169);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Little Pasta Shop</h1>
+    <ul>
+        <li><a href="#About">About <abbr title="Little Pasta Shop">LPS</abbr></a></li>
+        <li><a href="#Menu">Our Menu</a></li>  
+        <li><a href="hours.html">Store Hours</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <figure>
+        <img src="pasta.jpg" alt="a delicious plate of pasta" height="300" width="300">
+        <figcaption>Pasta With Nduja, Gorgonzola Dolce, & Mascarpone</figcaption>
+    </figure>
+    <hr>
+    <article id="About">
+        <h2>About <abbr title="The Little Pasta Shop">LPS</abbr></h2>
+        <p>
+            <abbr title="The Little Pasta Shop">LPS</abbr> was founded in <!--<time datetime="2022">2022</time>-->2022. Our shop was built from our <strong>love of pasta</strong> . We hope our shop serves your interest and adds unique and interesting place to our little town.
+        </p>
+    </article>
+    <aside>
+        <h3>Pasta Probe</h3>
+        <details>
+            <summary>
+                when did pastas first appear in india ?
+            </summary>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit deserunt laborum quos sapiente fuga. Iste tenetur magni optio pariatur iure, dolorem aspernatur mollitia aliquid culpa, amet maxime sequi, tempora magnam reiciendis aperiam assumenda doloribus ab incidunt? Tenetur beatae corporis, minima, voluptates possimus vitae sit atque nemo fugiat modi nihil deserunt!
+                <time datetime="1905">1905</time>.
+            </p>
+        </details>
+        <details>
+            <summary>
+                what is pasta made of ?
+            </summary>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem obcaecati soluta provident iure fugiat, explicabo asperiores enim est nisi non? Blanditiis, accusamus in, suscipit veniam natus voluptatibus officia, aperiam itaque obcaecati quos dicta sed. Architecto, atque deserunt commodi deleniti autem quod quas! Asperiores nesciunt vero repellat ducimus! In, possimus sunt!
+            </p>
+        </details>
+    </aside>
+    <hr>
+    <article id="Menu">
+        <h2>Our Menu</h2>
+        <table>
+            <caption><strong>Varities of Pasta</strong></caption>
+            <thead>
+                <tr>
+                    <th>Pastas</th>
+                    <th scope="col"><abbr title="Quantity">QTY</abbr></th>
+                    <th scope="col">PRICE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" rowspan="3">Trophie el Pesto</th>
+                    <td>1</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>280</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>390</td>
+                </tr>
+                <tr>
+                    <th scope="row" rowspan="3">Spaghetti Agio Olio e Peperoncino</th>
+                    <td>1</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>235</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>335</td>
+                </tr>
+                <tr>
+                    <th scope="row" rowspan="3">Pasta al Tonno</th>
+                    <td>1</td>
+                    <td>160</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>425</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Extra Cheese will be charged</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+        <p><a href="#">Back to top</a></p>
+    </article>
+    <hr>
+    <footer>
+        <p>
+            copyright &copy; The Little Pasta Shop
+        </p>
+    </footer>
+</body>
+</html>
